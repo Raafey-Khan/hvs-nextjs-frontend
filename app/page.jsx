@@ -21,16 +21,52 @@ export default function App() {
 </Head>
 
 <body>
+  
   <swiper-container class="mySwiper" navigation="true">
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
-    <swiper-slide>Slide 4</swiper-slide>
-    <swiper-slide>Slide 5</swiper-slide>
-    <swiper-slide>Slide 6</swiper-slide>
-    <swiper-slide>Slide 7</swiper-slide>
-    <swiper-slide>Slide 8</swiper-slide>
-    <swiper-slide>Slide 9</swiper-slide>
+    <swiper-slide>
+       <div className='flex '>
+       <img className='object-contain' src="images/Testimonial-img-1.png" alt="" />
+       <img className='object-contain' src="images/Testimonial-img-2.png" alt="" />
+       </div>
+      
+      </swiper-slide>
+    <swiper-slide>
+    <div className='flex '>
+       <img className='object-contain' src="images/Testimonial-img-1.png" alt="" />
+       <img className='object-contain' src="images/Testimonial-img-2.png" alt="" />
+       </div>
+    </swiper-slide>
+    <swiper-slide>
+    <div className='flex '>
+       <img className='object-contain' src="images/Testimonial-img-1.png" alt="" />
+       <img className='object-contain' src="images/Testimonial-img-2.png" alt="" />
+       </div>
+    </swiper-slide>
+    <swiper-slide>
+    <div className='flex '>
+       <img className='object-contain' src="images/Testimonial-img-1.png" alt="" />
+       <img className='object-contain' src="images/Testimonial-img-2.png" alt="" />
+       </div>
+    </swiper-slide>
+    <swiper-slide>
+    <div className='flex '>
+       <img className='object-contain' src="images/Testimonial-img-1.png" alt="" />
+       <img className='object-contain' src="images/Testimonial-img-2.png" alt="" />
+       </div>
+    </swiper-slide>
+    <swiper-slide>
+    <div className='flex '>
+       <img className='object-contain' src="images/Testimonial-img-1.png" alt="" />
+       <img className='object-contain' src="images/Testimonial-img-2.png" alt="" />
+       </div>
+    </swiper-slide>
+    <swiper-slide>
+    <div className='flex '>
+       <img className='object-contain' src="images/Testimonial-img-1.png" alt="" />
+       <img className='object-contain' src="images/Testimonial-img-2.png" alt="" />
+       </div>
+    </swiper-slide>
+
   </swiper-container>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
